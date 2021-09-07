@@ -1,0 +1,53 @@
+.blank{
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+.blue{
+    background-color: rgb(41, 89, 161);
+    border: 1px solid rgb(41, 89, 161);
+    color: rgb(41, 89, 161);
+    height: 50px;
+}
+.red{
+    background-color: red;
+    border: 1px solid red;
+    color: red; 
+}
+.yellow{
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: yellow;
+}
+.green{
+    background-color: rgb(19, 214, 19);
+    border: 1px solid rgb(19, 214, 19);
+    color: rgb(19, 214, 19);
+    height: 50px;
+}
+.black{
+    background-color: black;
+    border: 1px solid black;
+    color: black;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    width: 200px;
+    text-align: left;
+    font-size: large;
+    font-family: sans-serif;
+}
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+
+    }
+    
+    tr:nth-child(odd) {background-color:red; }
+    tr:nth-child(even) {background-color:yellow; }
+    tr:nth-child(1) {background-color:white; }
+
+
