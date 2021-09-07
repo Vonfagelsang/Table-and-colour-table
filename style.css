@@ -39,6 +39,19 @@ td,th{
     font-size: large;
     font-family: sans-serif;
 }
+.middle{
+    width: 200px;
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+}
+.right{
+    width: 200px;
+    text-align: right;
+    font-size: large;
+    font-family: sans-serif;
+}
+
     table,th,td{
         border: 1px solid black;
         border-collapse: collapse;
@@ -47,7 +60,9 @@ td,th{
     }
     
     tr:nth-child(odd) {background-color:red; }
+    tr:nth-child(odd) {color:white; }
     tr:nth-child(even) {background-color:yellow; }
     tr:nth-child(1) {background-color:white; }
+    tr:nth-child(1) {color:black; }
 
 
